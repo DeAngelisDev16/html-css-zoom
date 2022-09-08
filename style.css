@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .container{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    background-color: aquamarine;
+ }
+
+ .row{
+    width: 100%;
+    display: flex;
+ }
+
+ .col-2{
+    width: calc(100% / 12 * 2);
+ }
+ 
