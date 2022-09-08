@@ -6,49 +6,67 @@
 
 body{
     background-color: black;
-    max-height: 100vh;
+    height: 100vh;
+}
+
+header{
+    height: 50px;
+    position: relative;
+    
+}
+
+#speaker_view{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: white;
+    background-color: rgb(173, 151, 151);
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.2rem 0.2rem;
 }
 
 
-
-
- .container{
-    width: 90%;
-    height: calc(80vh + 5.602240896358543vh);
-    margin: auto;
-    background-color:black;
- }
-
- .row{
-    width: 100%;
-    display: flex;
-    margin-top: 8px;
- }
-
- .col-2{
-    width: calc(100% / 12 * 2);
-    height: 20vh;
-    margin-right: 0.5rem;
-    background-image: url(./img/1025-4951x3301\ \(1\).jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-
- }
-
- span{
-    position: absolute;
-    top: 85%;
-    color: white;
     
- }
+.container{
+   width: 90%;
+   height: 80vh;
+   margin: auto;
+   
+   
+   
+}
 
- .comandi_zoom{
-    background-color: rgba(0, 0, 0, 0.289);
-    height:calc(20vh - 5.602240896358543vh)
+.row{
+   width: 100%;
+   display: flex;
+   margin-top: 8px;
+}
+
+.col-2{
+   width: calc(100% / 12 * 2);
+   height: 20vh;
+   margin-right: 0.5rem;
+   background-image: url(./img/1025-4951x3301\ \(1\).jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+
+}
+
+span{
+   position: absolute;
+   top: 85%;
+   color: white;
+   
+}
+
+
     
+
+
+
+
     
- }
     
  
  
