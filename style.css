@@ -6,6 +6,7 @@
 
 body{
     background-color: black;
+    max-height: 100vh;
 }
 
 
@@ -13,7 +14,7 @@ body{
 
  .container{
     width: 90%;
-    height: 85,60224089635854vh;
+    height: calc(80vh + 5.602240896358543vh);
     margin: auto;
     background-color:black;
  }
@@ -44,7 +45,9 @@ body{
 
  .comandi_zoom{
     background-color: rgba(0, 0, 0, 0.289);
-    height: 14,39775910364146
+    height:calc(20vh - 5.602240896358543vh)
+    
+    
  }
     
  
