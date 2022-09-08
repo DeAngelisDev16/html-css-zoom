@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    height: 50px;
+    height: 10vh;
     position: relative;
     
 }
@@ -29,7 +29,7 @@ header{
     
 .container{
    width: 90%;
-   height: 80vh;
+   height: 70vh;
    margin: auto;
    
    
@@ -44,7 +44,7 @@ header{
 
 .col-2{
    width: calc(100% / 12 * 2);
-   height: 20vh;
+   height: 10vh;
    margin-right: 0.5rem;
    background-image: url(./img/1025-4951x3301\ \(1\).jpg);
    background-size: cover;
@@ -55,9 +55,15 @@ header{
 
 span{
    position: absolute;
-   top: 85%;
+   top: 70%;
    color: white;
+   background-color: rgb(124, 115, 115);
    
+}
+
+footer{
+    height: 20vh
+    background-color: aqua;
 }
 
 
