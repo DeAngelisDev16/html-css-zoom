@@ -13,7 +13,7 @@ body{
 
  .container{
     width: 90%;
-    height: 100vh;
+    height: 85,60224089635854vh;
     margin: auto;
     background-color:black;
  }
@@ -21,6 +21,7 @@ body{
  .row{
     width: 100%;
     display: flex;
+    margin-top: 8px;
  }
 
  .col-2{
@@ -40,4 +41,11 @@ body{
     color: white;
     
  }
+
+ .comandi_zoom{
+    background-color: rgba(0, 0, 0, 0.289);
+    height: 14,39775910364146
+ }
+    
+ 
  
