@@ -6,11 +6,11 @@
 
 body{
     background-color: black;
-    height: 100vh;
+    max-height: 100vh;
 }
 
 header{
-    height: 10vh;
+    height: 8.9vh;
     position: relative;
     
 }
@@ -25,12 +25,17 @@ header{
     border-radius: 0.2rem 0.2rem;
 }
 
+main{
+    height: 70vh;
+
+}
+
 
     
 .container{
    width: 90%;
-   height: 70vh;
    margin: auto;
+   
    
    
    
@@ -62,9 +67,15 @@ span{
 }
 
 footer{
-    height: 20vh
-    background-color: aqua;
+    height: 20vh;
+    background-color: rgb(53, 52, 52);
+
 }
+
+    
+    
+
+
 
 
     
